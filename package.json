@@ -1,5 +1,5 @@
 {
-  "name": "@kilo/cognition-contracts",
+  "name": "@atulsingh369/cognition-contracts",
   "version": "0.1.0",
   "description": "Shared contracts for LLL Cognition Engine MVP",
   "type": "module",
@@ -18,7 +18,7 @@
     "prepublishOnly": "npm run build && npm run test"
   },
   "keywords": ["cognition-engine", "contracts", "zod", "schemas"],
-  "author": "Kilo",
+  "author": "Atul Singh",
   "license": "MIT",
   "dependencies": {
     "zod": "^3.23.8"
@@ -30,7 +30,7 @@
   "files": ["dist"],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kilo/cognition-contracts.git"
+    "url": "git+https://github.com/atulsingh369/cognition-contracts.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com",
