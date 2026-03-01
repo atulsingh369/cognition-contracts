@@ -8,6 +8,10 @@ import {
   FileListResponseSchema,
   FileDetailResponseSchema,
   FileListQuerySchema,
+  PreviewRequestSchema,
+  PreviewResponseSchema,
+  SaveRawRequestSchema,
+  SaveRawResponseSchema,
 } from "./schemas/index.js";
 
 export type DistillRequest = z.infer<typeof DistillRequestSchema>;
@@ -18,3 +22,7 @@ export type DriveFile = z.infer<typeof DriveFileSchema>;
 export type FileListResponse = z.infer<typeof FileListResponseSchema>;
 export type FileDetailResponse = z.infer<typeof FileDetailResponseSchema>;
 export type FileListQuery = z.infer<typeof FileListQuerySchema>;
+export type PreviewRequest = z.infer<typeof PreviewRequestSchema>;
+export type PreviewResponse = z.infer<typeof PreviewResponseSchema>;
+export type SaveRawRequest = z.infer<typeof SaveRawRequestSchema>;
+export type SaveRawResponse = z.infer<typeof SaveRawResponseSchema>;
