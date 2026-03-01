@@ -1,6 +1,6 @@
 {
   "name": "@atulsingh369/cognition-contracts",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Shared contracts for LLL Cognition Engine MVP",
   "type": "module",
   "main": "./dist/index.js",
@@ -17,7 +17,12 @@
     "test:watch": "vitest",
     "prepublishOnly": "npm run build && npm run test"
   },
-  "keywords": ["cognition-engine", "contracts", "zod", "schemas"],
+  "keywords": [
+    "cognition-engine",
+    "contracts",
+    "zod",
+    "schemas"
+  ],
   "author": "Atul Singh",
   "license": "MIT",
   "dependencies": {
@@ -27,7 +32,9 @@
     "typescript": "^5.4.0",
     "vitest": "^2.0.0"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/atulsingh369/cognition-contracts.git"
