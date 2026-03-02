@@ -3,6 +3,7 @@ import { z } from "zod";
 export const DriveFileSchema = z.object({
   id: z.string(),
   name: z.string(),
+  description: z.string().optional(),
   createdTime: z.string(),
   modifiedTime: z.string(),
   size: z.number(),

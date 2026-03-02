@@ -1,6 +1,6 @@
 {
   "name": "@atulsingh369/cognition-contracts",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Shared contracts for LLL Cognition Engine MVP",
   "type": "module",
   "main": "./dist/index.js",
